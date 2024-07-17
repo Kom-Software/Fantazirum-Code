@@ -28,7 +28,7 @@ class Window(QMainWindow):
         self.menuBar = None
         font  = QFont("Consolas", 15)
 
-        self.setWindowTitle("Space Code")
+        self.setWindowTitle("Fantazirum Code")
         self.setWindowIcon(QtGui.QIcon("spacetext.png"))
         self.setStyleSheet("background-color: rgb(40, 40, 40); color: rgb(255, 255, 255)")
         self.setFixedSize(1000, 500)
